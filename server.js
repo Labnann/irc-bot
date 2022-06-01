@@ -10,9 +10,17 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-var irc = require('irc');
-var client = new irc.Client('irc://irc.oftc.net:6667', 'myNick', {
-    channels: ['#special-irc-323'],
-});
+let config = [
+  // Bot 1 (minimal configuration):
+  {
+    "nickname": "test2",
+    "server": "irc.testbot.org",
+    "discordToken": "botwantsin123",
+    "channelMapping": {
+      "#other-discord": "#new-irc-channel"
+    }
+  }];
+
+
 
 
