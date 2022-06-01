@@ -20,9 +20,9 @@ let config = [
   {
     "nickname": "mt",
     "server": "irc.oftc.net",
-    "discordToken": "OTgxNjIwODc4MjUxMDI0NDI0.GpDMSG.Y5IL8zAKX7eXi9BH-YHAD4aKVZzOe35KakS09w",
+    "discordToken": process.env.APP_TOKEN,
     "channelMapping": {
-      "981620682888736869": "#kernel-mentees"
+      "981620682888736869": "#2323232323-kernel-mentees-23232322332"
     }
 
   }];
