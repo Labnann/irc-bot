@@ -18,11 +18,11 @@ app.listen(port, () => {
 let config = [
   // Bot 1 (minimal configuration):
   {
-    "nickname": "Labnan_",
+    "nickname": "mt",
     "server": "irc.oftc.net",
     "discordToken": "OTgxNjIwODc4MjUxMDI0NDI0.GpDMSG.Y5IL8zAKX7eXi9BH-YHAD4aKVZzOe35KakS09w",
     "channelMapping": {
-      "981620682888736869": "#special-123"
+      "981620682888736869": "#kernel-mentees"
     }
 
   }];
