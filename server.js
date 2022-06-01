@@ -22,7 +22,7 @@ let config = [
     "server": "irc.oftc.net",
     "discordToken": "OTgxNjIwODc4MjUxMDI0NDI0.GpDMSG.Y5IL8zAKX7eXi9BH-YHAD4aKVZzOe35KakS09w",
     "channelMapping": {
-      "981620682888736869": "#24242kernel-mentees-24242442424242424"
+      "981620682888736869": "#kernel-mentees"
     }
 
   }];
