@@ -15,15 +15,16 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
+let channelMap = {};
+channelMap[process.env.DISCORD_CHANNEL]=process.env.IRC_CHANNEL
+
 let config = [
   // Bot 1 (minimal configuration):
   {
     "nickname": "mt",
     "server": "irc.oftc.net",
-    "discordToken": ,
-    "channelMapping": {
-      `${process.env.DISCORD_CHANNEL}`: "#2323232323-kernel-mentees-23232322332"
-    }
+    "discordToken": process.env.APP_TOKEN,
+    "channelMapping": channelMap
 
   }];
 
