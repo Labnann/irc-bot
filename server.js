@@ -21,7 +21,7 @@ channelMap[process.env.DISCORD_CHANNEL]=process.env.IRC_CHANNEL
 let config = [
   // Bot 1 (minimal configuration):
   {
-    "nickname": "mt",
+    "nickname": process.env.BOT_IRC_NAME,
     "server": "irc.oftc.net",
     "discordToken": process.env.APP_TOKEN,
     "channelMapping": channelMap
