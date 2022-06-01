@@ -22,7 +22,7 @@ let config = [
   // Bot 1 (minimal configuration):
   {
     "nickname": process.env.IRC_BOT_NAME,
-    "server": "irc.oftc.net",
+    "server": process.env.IRC_SERVER,
     "discordToken": process.env.APP_TOKEN,
     "channelMapping": channelMap
 
