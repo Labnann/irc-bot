@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT;
-const discordIRC = require ('discord-irc');
+
+const {discordIRC} = require('discord-irc');
 
 
 
@@ -25,5 +26,5 @@ let config = [
   }];
 
 
-
+discordIRC(config);
 
